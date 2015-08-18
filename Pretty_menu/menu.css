@@ -1,0 +1,55 @@
+body{
+	background-color : #012;
+}
+nav .box{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	font: 20px bold tahoma;
+	text-align: center;
+	height: 250px;
+	overflow: hidden;
+}
+
+.box a{
+	display: block;
+	vertical-align: middle;
+	height: 100%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.box span{
+	display: block;
+	position: relative;
+	top: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#accueil{
+	background-color: blue;
+}
+#a_propos{
+	background-color: red;
+}
+#services{
+	background-color: green;
+}
+#portfolio{
+	background-color: gray;
+}
+#contact{
+	background-color: orange;
+}
+
+nav:hover .box{
+	width: 18%;
+}
+nav .box:hover{
+	width: 28%;
+}
+nav .box:hover span{
+	top: 25%;
+}

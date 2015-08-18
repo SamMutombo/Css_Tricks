@@ -1,0 +1,46 @@
+#menu, #menu ul{
+	margin: 0px;
+	padding:0px;
+	font-size:0px;
+}
+
+#menu >li{
+	border-right: 1px solid red;
+}
+
+#menu li:last-child{
+	border: none;
+}
+
+#menu li{
+	display: inline-block;
+	font-size: 18px;
+	position: relative;
+}
+#menu a{
+	display: block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #444;
+	color: white;
+	font-family: Tunga;
+	text-decoration: none;
+}
+#menu li ul{
+	position: absolute;
+	display: none;
+}
+#menu li:hover > ul{
+	display: block;
+}
+
+#menu li li:hover > ul{
+	left:130px;
+	top: 0px;
+}
+#menu a:hover{
+	color: #656;
+	background-color: #cec;
+}
