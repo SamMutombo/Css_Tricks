@@ -1,0 +1,22 @@
+#menu{
+	display: inline-block;
+}
+#facebook{
+	display: inline-block;
+	background: url("img/face_hover.jpg") no-repeat; /*On définit un background pour l'image. De ce fait celui-ci ne sera pas visible*/
+}
+#menu a:hover img{
+	visibility: hidden; /*C'est ici qu'on cache l'image en noir et blanc ce qui laisse voir le fond*/
+}
+#gplus{
+	display: inline-block;
+	background: url("img/gplus_hover.png") no-repeat;
+}
+#wapp{
+	display: inline-block;
+	background: url("img/wapp_hover.png");
+}
+#wchat{
+	display: inline-block;
+	background: url("img/wchat_hover.png");
+}
