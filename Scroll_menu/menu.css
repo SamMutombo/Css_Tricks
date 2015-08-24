@@ -30,7 +30,7 @@
 }
 #menu li ul{
 	position: absolute;
-	display: none;
+	display:none;
 }
 #menu li:hover > ul{
 	display: block;
